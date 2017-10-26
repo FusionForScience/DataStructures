@@ -14,6 +14,11 @@ template <typename T>
 class DataStructure
 {
 	public:
+		DataStructure<T>() : _size(0) {}
+
+
+	protected:
+		int _size;
 
 
 	private:
